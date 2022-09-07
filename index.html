@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="fonts" href="https://fonts.google.com/specimen/Space+Grotesk">
+
+
+  <title>Frontend Mentor | Interactive card details form</title>
+
+</head>
+
+<body>
+  <div class="frontCardDetails">
+    <img src="./images/bg-card-front.png" alt="frontCardDetails">
+    <h1 class="cardNumber">0000 0000 0000 0000</h1>
+    <p class="cardName"> Jane Appleseed</p>
+    <p class="cardDate">00/00</p>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+  </div>
+  <div class="backCardDetails">
+    <img src="./images/bg-card-back.png" alt="backCard">
+    <p class="cvv"> 000</p>
+  </div>
+
+  <form class="inputDetails" id="form">
+
+    <label for="cardHoldrName" class="cardHolderName">
+      Cardholder Name
+    </label><br>
+    <input type="text" placeholder="e.g. Jane Appleseed" class="input1" required id="cardHolderName">
+    <div id="error"></div><br><br>
+
+    <label for="cardNumber" class="cardNumber">
+      Card Number
+    </label><br>
+    <input type="number" placeholder=" e.g. 1234 5678 9123 0000" class="input2" required id="cardNumber"><br><br>
+
+    <label for="expDate" class="expDate">
+      Exp. Date (MM/YY)</label>
+    <label for="CVC" class="CVC">
+      CVC</label><br>
+    <input type="number" placeholder="MM" class="input3" required id="month">
+    <input type="number" placeholder="  YY" class="input4" required id="year">
+    <input type="number" placeholder=" e.g. 123" class="input5" required id="cvc"><br><br>
+    <button type="submit" class="btn">Confirm</button>
+
+
+  </form>
+
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Fardeen Khan</a>.
+  </footer>
+  <script src="index.js"></script>
+</body>
+
+</html>
