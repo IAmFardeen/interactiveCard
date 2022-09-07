@@ -1,0 +1,176 @@
+body{
+ background-image: url(./images/bg-main-desktop.png); 
+    background-repeat: no-repeat;
+}
+
+/* front card  */
+
+.circle1{
+    height: 50px;
+    width: 50px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.circle2{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px solid hsl(0, 0%, 100%);
+    position: absolute;
+    top: 15%;
+    left: 25%;
+}
+.frontCardDetails{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.frontCardDetails .cardNumber{
+    font-family: Space Grotesk;
+    position: absolute;
+    top: 50%;
+    left: 16%;
+    font-size: 500;
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 7px;
+    
+}
+.frontCardDetails .cardName{
+    font-family: Space Grotesk;
+    position: absolute;
+    top: 70%;
+    left: 6%;
+    font-size: 500;
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.frontCardDetails .cardDate{
+    font-family: Space Grotesk;
+    position: absolute;
+    top: 70%;
+    left: 76%;
+    font-size: 500;
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+}
+
+/* backcard */
+.backCardDetails{
+    position: absolute;
+    margin-top: 29%;
+    margin-left: 14%;
+}
+
+.cvv{
+    position: absolute;
+    top: 14%;
+    left: 86%;
+    color:  hsl(0, 0%, 100%);
+    font-size: 18px;
+
+}
+
+
+/* inputInformation */
+
+.inputDetails{
+    position: absolute;
+    top: 41%;
+    left: 50%;
+}
+.cardHolderName {
+    text-transform: uppercase;
+    font-weight: bold 500;
+}
+.input1{
+    width: 63%;
+    height: 32px;
+    border-radius: 8px;
+    border-width: thin;
+    margin-top: 1%;
+}
+
+/* cardNumber */
+.cardNumber{
+    text-transform: uppercase;
+    font-weight: bold 500;
+}
+.input2{
+    width: 63%;
+    height: 32px;
+    border-radius: 8px; 
+    border-width: thin;
+    margin-top: 1%;
+}
+
+/* ExpDate and CVC */
+.expDate{
+    text-transform: uppercase;
+    font-weight: bold 500;
+}
+.CVC{
+    margin-left: 6%;
+    text-transform: uppercase;
+    font-weight: bold 500;
+}
+.input3{
+    height: 29px;
+    width: 15%;
+    border-radius: 10px;
+    border-width: thin;
+    margin-top: 1%;
+}
+.input4{
+    height: 29px;
+    width: 15%;
+    border-radius: 10px;
+    border-width: thin;
+    margin-top: 1%;
+
+}
+.input5{
+    width: 28%; 
+    height: 29px;
+    border-radius: 10px;
+    border-width: thin;
+    margin-top: 1%;
+}
+
+/* confirmButton */
+.btn{
+    width: 63%;
+    height: 32px;
+    border-radius: 8px; 
+    color: hsl(0, 0%, 100%);
+    background: hsl(278, 68%, 11%);
+}
+
+
+/* footer */
+.attribution{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+
+ 
+/* javascript css */
+
+.validity{
+    border: red
+}
