@@ -19,7 +19,9 @@
     <img src="./images/bg-card-front.png" alt="frontCardDetails">
     <h1 class="cardNumber">0000 0000 0000 0000</h1>
     <p class="cardName"> Jane Appleseed</p>
-    <p class="cardDate">00/00</p>
+    <span class="cardMonth">00</span >
+    <span class="inclineslash">/</span>
+    <span class="cardYear">00</span>
     <div class="circle1"></div>
     <div class="circle2"></div>
   </div>
@@ -34,12 +36,13 @@
       Cardholder Name
     </label><br>
     <input type="text" placeholder="e.g. Jane Appleseed" class="input1" required id="cardHolderName">
-    <div id="error"></div><br><br>
+    <div id="error"></div><br>
 
-    <label for="cardNumber" class="cardNumber">
+    <label for="cardNumber" class="cardNumbers">
       Card Number
     </label><br>
-    <input type="number" placeholder=" e.g. 1234 5678 9123 0000" class="input2" required id="cardNumber"><br><br>
+    <input type="number" placeholder=" e.g. 1234 5678 9123 0000" class="input2" required id="cardNumber">
+    <div id="error2"></div><br>
 
     <label for="expDate" class="expDate">
       Exp. Date (MM/YY)</label>
@@ -47,7 +50,9 @@
       CVC</label><br>
     <input type="number" placeholder="MM" class="input3" required id="month">
     <input type="number" placeholder="  YY" class="input4" required id="year">
-    <input type="number" placeholder=" e.g. 123" class="input5" required id="cvc"><br><br>
+    <input type="number" placeholder=" e.g. 123" class="input5" required id="cvc"><br>
+    <span id="error3"></span>
+    <br>
     <button type="submit" class="btn">Confirm</button>
 
 
@@ -58,6 +63,7 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Fardeen Khan</a>.
   </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="index.js"></script>
 </body>
 
