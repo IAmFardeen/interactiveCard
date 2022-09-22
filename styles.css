@@ -50,14 +50,32 @@ body{
     font-weight: 500;
     text-transform: uppercase;
 }
-.frontCardDetails .cardDate{
+.frontCardDetails .cardMonth{
     font-family: Space Grotesk;
     position: absolute;
-    top: 70%;
+    top: 78%;
     left: 76%;
     font-size: 500;
     color: hsl(0, 0%, 100%);
     font-weight: 500;
+}
+.frontCardDetails .cardYear{
+    font-family: Space Grotesk;
+    position: absolute;
+    font-weight: 500;
+    font-size: 500;
+    top: 78%;
+    left: 84%;
+    color: hsl(0, 0%, 100%);
+}
+.frontCardDetails .inclineslash{
+    font-family: Space Grotesk;
+    position: absolute;
+    font-weight: 500;
+    font-size: 500;
+    top: 78%;
+    left: 81%;
+    color: hsl(0, 0%, 100%);
 }
 
 /* backcard */
@@ -69,8 +87,8 @@ body{
 
 .cvv{
     position: absolute;
-    top: 14%;
-    left: 86%;
+    top: 38%;
+    left: 82%;
     color:  hsl(0, 0%, 100%);
     font-size: 18px;
 
@@ -86,7 +104,9 @@ body{
 }
 .cardHolderName {
     text-transform: uppercase;
-    font-weight: bold 500;
+    /* font-weight: bold 500; */
+    font-weight: 600;
+    letter-spacing: 2px;
 }
 .input1{
     width: 63%;
@@ -97,9 +117,11 @@ body{
 }
 
 /* cardNumber */
-.cardNumber{
+.cardNumbers{
     text-transform: uppercase;
-    font-weight: bold 500;
+    /* font-weight: bold 500; */
+    font-weight: 600;
+    letter-spacing: 2px;
 }
 .input2{
     width: 63%;
@@ -112,12 +134,16 @@ body{
 /* ExpDate and CVC */
 .expDate{
     text-transform: uppercase;
-    font-weight: bold 500;
+    font-weight: 600;
+    letter-spacing: 2px;
+    
 }
 .CVC{
     margin-left: 6%;
     text-transform: uppercase;
-    font-weight: bold 500;
+    /* font-weight: bold 500; */
+    font-weight: 600;
+    letter-spacing: 2px;
 }
 .input3{
     height: 29px;
@@ -132,19 +158,21 @@ body{
     border-radius: 10px;
     border-width: thin;
     margin-top: 1%;
+    margin-left: 3%;
 
 }
 .input5{
-    width: 28%; 
+    width: 20%;
     height: 29px;
     border-radius: 10px;
     border-width: thin;
     margin-top: 1%;
+    margin-left: 6%;
 }
 
 /* confirmButton */
 .btn{
-    width: 63%;
+    width: 64%;
     height: 32px;
     border-radius: 8px; 
     color: hsl(0, 0%, 100%);
@@ -172,5 +200,14 @@ body{
 /* javascript css */
 
 .validity{
-    border: red
+    color: red;
+   
+}
+.border-color{
+    border-color: red;
+    box-shadow: 1px 1px 8px 1px blue;;
+}
+
+.after-click{
+    background-color: antiquewhite;
 }
